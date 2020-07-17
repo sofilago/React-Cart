@@ -5,8 +5,8 @@ Este archivo NO es necesario editar para los test specs
 import React, {Component} from 'react';
 import  Exhibit from './Exhibit';
 // El código debajo va a ser útil si queres usar tu store de redux como la fuente de estado y verdad
-// import store from '../store';
-// import {setMammal, setBird, setFish} from '../store/action-creators/actions';
+import store from '../store';
+import {setMammal, setBird, setFish} from '../store/action-creators/actions';
 
 export default class App extends Component {
 
